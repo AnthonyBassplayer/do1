@@ -1,1 +1,77 @@
 /* You can add global styles to this file, and also import other style files */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+
+ul {
+  list-style: none;
+}
+
+
+body {
+  padding:0;
+  margin:0;
+  border:0;
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+  max-width: 688px;
+  margin: 0 auto;
+}
+
+.name {
+/**/
+}
+
+.name__title {
+  color: #3b0725;
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8.95px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+
+.name__title:after {
+  content:'';
+  position: absolute;
+  width: 50px;
+  bottom:0;
+  height:1px;
+  left:50%;
+  background-color: #000;
+  margin: 0 0 0 -25px;
+}
+
+.main-app {
+  font-size: 18px;
+  font-weight:400;
+  max-width:688px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: circle;
+  padding: 0;
+}
+
+/*.header-wrap {
+  display:flex;
+  justify-content: center;
+}*/
+
